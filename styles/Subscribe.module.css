@@ -1,0 +1,61 @@
+.container {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.video {
+    width: 100%;
+    height: 95%;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: .9;
+}
+
+.subscribeBox {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(200, 199, 199, 0.694);
+    position: absolute;
+    top: 25%;
+    left: 22%;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    margin-bottom: 15px;
+}
+
+.input {
+    border: none;
+    width: 50%;
+    height: 3rem;
+    padding-left: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color-one);
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
